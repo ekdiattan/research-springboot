@@ -23,10 +23,5 @@ public class HomeController extends Controller
         String resultFromOtherClass = homeService.someMethod();
         return this.successResponse(resultFromOtherClass);
     }
-
-    public String test()
-    {
-             
-    }
 }
 
