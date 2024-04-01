@@ -5,7 +5,9 @@ public class HomeService
 {
     public String someMethod() 
     {
-        String nama = "Rizki Anjayy Mabar";
-        return "Hello " + nama;
+        int i = 1;
+        int j = 3;
+        String counter = String.valueOf(i + j);
+        return counter;
     }
 }
