@@ -7,7 +7,17 @@ public class HomeService
     {
         int i = 1;
         int j = 3;
-        String counter = String.valueOf(i + j);
+
+        String counter = String.valueOf(i - j);
+        
         return counter;
+    }
+    public String update()
+    {
+        return "Update";
+    }
+    public String stores()
+    {
+        return "Test";   
     }
 }

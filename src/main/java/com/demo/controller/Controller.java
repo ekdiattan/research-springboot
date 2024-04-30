@@ -6,7 +6,6 @@ public class Controller
     {   
         return "Success";
     }
-    
     public String errorResponse()
     {
         return "Error";
